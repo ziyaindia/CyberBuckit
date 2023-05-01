@@ -1,0 +1,130 @@
+
+    .thumbnail{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 46px;
+    background-color: #f7fbfe;
+    position: relative;
+    min-height: 425px;
+     
+
+       
+    }
+    #header {
+    height: 70px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color:#4e73df;
+}
+.icon{
+  margin: 0 auto;
+  width: 265px;
+  height: 200px;
+  background-color:;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border:1px solid black;
+  overflow:hidden;
+   position: relative;
+}
+
+.thumbimg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.icon-view {
+    height: 38px;
+    width: 38px;
+}
+.copyright_text{
+    color:white;
+    margin-top:18px;
+} 
+#footer {
+    padding: 5px 0px;
+    background-color: #4e73df;
+}
+.play_btn {
+    height:50px;
+    width:50px;
+    cursor:pointer;
+     position:absolute;
+}
+.current {
+    color: green;
+}
+
+
+.pagination {
+  margin: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pagi{
+  background-color: #f7fbfe;
+
+}
+.pagination ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+  background-color: #eee;
+}
+.pagination li a {
+  color: #333;
+  text-decoration: none;
+}
+.pagination li.next {
+  float: right;
+}
+.pagination li.active {
+  background-color: #337ab7;
+}
+.pagination li.active a {
+  color: #fff;
+}
+.pagination li.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.subscriberform {
+height:78vh;
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .icon {
+        width:220px;    
+  }}
+@media only screen and (max-width: 992px) {
+  .icon {
+        width:220px;    
+  }
+}
+     
